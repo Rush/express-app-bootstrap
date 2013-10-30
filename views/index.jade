@@ -1,0 +1,8 @@
+extends layout
+
+append head
+	script(data-main='/js/main-page', src='/js/require.js')
+
+block content
+	h1= title
+	p Welcome to #{title}
