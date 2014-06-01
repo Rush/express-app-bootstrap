@@ -1,4 +1,4 @@
 express-app-bootstrap
 =====================
 
-Bootstrap for express app with Jade, LESS, require.js and grunt
+Bootstrap for express app with Jade (client and server-side), LESS, require.js, grunt

@@ -4,5 +4,6 @@ append head
 	script(data-main='/js/main-page', src='/js/require.js')
 
 block content
-	h1= title
-	p Welcome to #{title}
+	- var text = "Hello from server"
+	//- below could be symlinked to have normal paths
+	include ../src/js/views/hello.jade

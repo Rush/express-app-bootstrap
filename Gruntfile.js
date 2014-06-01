@@ -14,7 +14,7 @@ module.exports = function(grunt) {
       std: {
         options: {
           appDir: './src/js',
-          baseUrl: '.',
+          baseUrl: './',
 // uncomment for AngularJS
 //					onBuildRead: function(moduleName, path, contents) {
 //						return require('ngmin').annotate(contents);
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
               ],
             }, {
               name: 'main-page',
-              include: ['main-page'],
+              include: ['main-page', 'main'],
               exclude: ['common']
             }
           ]
